@@ -2,7 +2,7 @@
 
 # Using Terraform to deploy RAILS application to AWS
 
-A customer RAILS application has been built and dockerized with companion services: Sidekiq, Redis and Postgresql
+A custom RAILS application has been built and dockerized with companion services: Sidekiq, Redis and Postgresql
 
 A brief summary of the deployment process is:
 
