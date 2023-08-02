@@ -22,13 +22,13 @@ services:
   drkiq:
     image: drkiq:latest
     environment:
-      REDIS_URL: redis://rediscluster.ouzkgr.clustercfg.use1.cache.amazonaws.com:6379
-      AWS_ACCESS_KEY_ID: AKIA4L57F4CKZHFPZOU4
-      AWS_SECRET_ACCESS_KEY: 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
-      AWS_DEFAULT_REGION: us-east-1
-      ELASTICSEARCH_USERNAME: admin
-      ELASTICSEARCH_PASSWORD: Barbarbarbar1!
-      ELASTICSEARCH_URL: https://search-railssearch-ru2qys7sfy3euvqtg53ad42jky.us-east-1.es.amazonaws.com
+      REDIS_URL: xxx:6379
+      AWS_ACCESS_KEY_ID: 
+      AWS_SECRET_ACCESS_KEY: 
+      AWS_DEFAULT_REGION: 
+      ELASTICSEARCH_USERNAME: 
+      ELASTICSEARCH_PASSWORD: 
+      ELASTICSEARCH_URL: 
     volumes:
       - ./drkiq:/opt/app
     links:
