@@ -359,14 +359,14 @@ resource "aws_ecs_task_definition" "postgres_task_def" {
       essential = true
       
       "environment" = [
-    { "name" : "AWS_ACCESS_KEY_ID", "value" : "AKIA4L57F4CKZHFPZOU4" },
-    { "name" : "AWS_DEFAULT_REGION", "value" : "us-east-1" },
-    { "name" : "AWS_SECRET_ACCESS_KEY", "value" : "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" },
-    { "name" : "CACHE_URL", "value" : "redis://redis-cluster.ouzkgr.0001.use1.cache.amazonaws.com:6379" },
-    { "name" : "DATABASE_URL", "value" : "postgresql://drkiq:test_db_password@172.31.59.221:5432/drkiq?encoding=utf8&pool=5&timeout=500" },
-    { "name" : "JOB_WORKER_URL", "value" : "redis://redis-cluster.ouzkgr.0001.use1.cache.amazonaws.com:6379" },
+    { "name" : "AWS_ACCESS_KEY_ID", "value" : "" },
+    { "name" : "AWS_DEFAULT_REGION", "value" : "" },
+    { "name" : "AWS_SECRET_ACCESS_KEY", "value" : "" },
+    { "name" : "CACHE_URL", "value" : "" },
+    { "name" : "DATABASE_URL", "value" : "" },
+    { "name" : "JOB_WORKER_URL", "value" : "" },
     { "name" : "LISTEN_ON", "value" : "0.0.0.0:8010" },
-    { "name" : "REDIS_HOST", "value" : "redis://redis-cluster.ouzkgr.0001.use1.cache.amazonaws.com:6379" },
+    { "name" : "REDIS_HOST", "value" : "" },
     { "name" : "SECRET_TOKEN", "value" : "Wa4Kdu6hMt3tYKm4jb9p4vZUuc7jBVFw" },
     { "name" : "WORKER_PROCESSES", "value" : "1" }
     ],
