@@ -133,7 +133,7 @@ resource "aws_ecs_task_definition" "drkiq_task_def" {
   container_definitions = jsonencode([
     {
       name      = "drkiq"
-      image     = "850267594901.dkr.ecr.us-east-1.amazonaws.com/ECRreponame:imagetag"
+      image     = ".dkr.ecr.us-east-1.amazonaws.com/ECRreponame:imagetag"
       networkMode = "awsvpc"
       operatingSystemFamily = "LINUX"
       requiresCompatibilities = []
@@ -292,7 +292,7 @@ resource "aws_ecs_task_definition" "sideqik_task_def" {
   container_definitions = jsonencode([
     {
       name      = "sidekiq"
-      image     = "850267594901.dkr.ecr.us-east-1.amazonaws.com/ECRreponame:imagetagname"
+      image     = ".dkr.ecr.us-east-1.amazonaws.com/ECRreponame:imagetagname"
       networkMode = "awsvpc"
       operatingSystemFamily = "LINUX"
       requiresCompatibilities = []
